@@ -1,0 +1,12 @@
+[package]
+name = "rust-lang_71998"
+version = "0.1.0"
+authors = ["Cameron Taggart <cameron.taggart@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# rustfmt_lib = { git = "https://github.com/rust-lang/rustfmt" }
+rustc-ap-rustc_span = "656.0.0"
